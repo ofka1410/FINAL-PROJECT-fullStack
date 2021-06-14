@@ -1,0 +1,41 @@
+.product-warper{
+    width: 100%;
+    text-align: -webkit-center;
+    display: flex;
+   justify-content: center;
+  margin-bottom: 30px; 
+}
+
+.card-warper{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.cart-adding-warper{
+    display: flex;
+    flex-direction: column;
+}
+.h-currency{
+    color: rgba(240, 255, 255, 0.931);
+    text-decoration: underline grey;
+    padding-bottom: 5px;
+}
+.currency-select{
+    width: 200px;
+}
+
+.currency-warper{
+    margin-bottom: 20px;
+}
+
+/* @media screen and (max-width: 700px) {
+    .product-warper{
+        flex-direction: column;
+        text-align: -webkit-center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .h-currency{
+     font-size: 16px;
+    }
+  } */
+

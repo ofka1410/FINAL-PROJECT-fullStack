@@ -1,0 +1,68 @@
+.payment-page-warper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+ .back_shop{
+   margin-bottom:15px !important;
+   white-space:nowrap;
+   width: 200px;
+   background-color: rgb(70, 104, 255) !important;
+   color: white !important;
+ }
+ .back_shop:hover{
+     transition:  background-color 0.3s;
+     background-color: rgb(70, 98, 117) !important;
+ }   
+.search-output{
+    height: 45vh !important;
+    width:100%;
+    text-align: left;
+    overflow-y: auto;
+    margin-bottom: 10px !important;
+}
+.all-search-warper{
+    height: 50vh !important;
+    width:100%
+}
+.payment-header{
+    color: rgb(42, 42, 42);
+    border-bottom:1px solid grey !important ;
+}
+.order-warper{
+text-align: left;
+}
+.coloum-warper{
+width:100%;
+display: flex;
+flex-direction:column;
+align-items: center;
+}
+.label{
+    color: rgb(40, 40, 110);
+    font-weight: 600;
+}
+.dialog-payment{
+    height: 120vh !important;
+    width: 100% !important;
+}
+
+.price{
+    margin-top:10px !important ;
+}
+.button-warper{
+    width: 100%;
+    justify-content: center !important;  
+}
+
+@media only screen and (max-width: 750px) {
+    .payment-page-warper{
+        display: flex;
+        flex-direction: column;
+    }
+  }

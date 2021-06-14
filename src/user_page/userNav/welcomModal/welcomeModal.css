@@ -1,0 +1,19 @@
+p{
+    color: rgb(42, 42, 42);
+}
+.span{
+   padding: 5px; 
+}
+.delete-icon,.cart-icon{
+    width:50 !important;
+    height:50 !important;
+}
+.delete-icon{
+    color: rgb(172, 16, 16);
+}
+.cart-icon{
+    color: rgb(61, 124, 61);
+}
+.welcome-header{
+    color: rgb(87, 96, 102);
+}

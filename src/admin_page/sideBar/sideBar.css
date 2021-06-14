@@ -1,0 +1,81 @@
+
+.input{
+    width: 80%;
+    height: 40px;
+    margin-top: 25px !important;
+    
+}
+.input-warper{
+    margin-top: 10px !important;
+}
+#category{
+    background-color: azure;
+}
+.side-img{
+    margin-top: 30px;
+    width:80%;
+    height: 25vh;
+}
+.bt-div{
+margin:10px 5px 10px 5px
+}
+.search-input{
+height: 35px;
+
+}
+
+.search-button{
+    margin-bottom: 4px !important;
+    color: rgb(21, 14, 71) !important;
+    background-color: rgb(182, 208, 250) !important;
+  
+}
+.search{
+    border-bottom: 2px solid rgb(35, 193, 218);
+    border-top: 2px solid rgb(35, 193, 218);
+    padding-bottom: 20px;
+}
+.search-select{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:150px;
+}
+
+.addProduct,.updateProduct{
+    background-color: rgb(119, 179, 117) !important;
+    color: rgb(253, 253, 253) !important;
+}
+.updateProduct,.addProduct{
+    width:200px;
+    margin-top: 10px !important;
+    border-radius: 10px !important;
+}
+
+.addProduct:hover{
+    transform: scale(1.1);
+    color: rgb(0, 17, 255) !important; 
+}
+.updateProduct:hover{
+    transform: scale(1.1);
+    color: rgb(0, 17, 255) !important;  
+}
+
+@media only screen and (max-width: 800px) {
+    .updateProduct,.addProduct{
+        width:140px;
+        font-size: 12px !important;
+        white-space: nowrap;
+      
+    }
+}
+@media screen and (max-width: 500px) {
+   .search-input{
+        margin-top: 40px !important;
+   }     
+}
+.sticky-button{
+    position: fixed !important;
+    left: -10px;
+    top: 70px;
+      
+}

@@ -1,0 +1,62 @@
+.register{
+    margin-right: 5px !important;
+    background-color: rgb(250, 213, 165) !important;
+    }
+    .LogIn{
+    margin-top: 10px !important;
+    
+    background-color: rgb(246, 246, 235) !important;
+    }
+    .form-warper{
+        overflow-y: auto;
+        max-height: 400px;
+        width: 100%;
+    }
+    .input-warper{
+margin: 8px;
+margin-bottom: 12px;
+margin-right: 15px;
+    }
+    .validate-message{
+color: red;
+font-size: 13px;
+    }
+
+    h2{
+        padding-bottom: 7px;
+        color: rgb(74, 145, 155);
+        border-bottom: 1.5px solid rgb(176, 230, 240);
+        text-align: center;
+       
+    }
+  
+    .textField,.role{
+    
+     width:220px
+    }
+    .textField,.role,.textField_login{
+        width:220px
+    }
+
+    .iconClose-warper{
+        text-align: end;
+        width: 100%;
+        padding-top: 5px;
+    }
+    .Button{
+        margin-bottom: 25px;
+        margin-top: 10px !important;
+        color: rgb(66, 55, 3) !important;
+        border-radius: 10px !important;
+        width: 220px;
+        background-color: rgb(219, 236, 245) !important;
+    }
+    .Button:hover{
+        background-color: rgb(241, 219, 245) !important;
+    }
+    .role{
+        width: 210px;
+       height: 30px;
+       font-weight:600;
+    }
+

@@ -1,0 +1,119 @@
+.shopping-cart{
+position: relative;
+bottom: 5px;
+right: 5px;
+}
+.drawer-button{
+    
+    color: white !important;
+    
+}
+.alert-button{
+ 
+ color: rgb(29, 218, 54) !important;
+ transform: scale(1.3);
+    
+}
+.drawer-button:hover{
+    transform:scale(1.3)
+}
+.cart{
+    color: white;
+    font-size: 35px;
+}
+.userNav{
+    height: 50px;
+}
+.cart-warper{
+    height: 55vh;
+    overflow-y: scroll;
+    text-align: left;
+    margin-top: 8px;
+}
+.items{
+    margin-top: 8px;
+    margin-bottom: 8px;
+   
+    margin-left: 20px;
+
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+
+.img-product{
+    width: 100px;
+    height: 80px;
+}
+.product-name{
+    color: rgb(64, 72, 107);
+    font-weight: 700;
+    text-decoration: underline grey;
+}
+.number{
+    color: rgb(27, 139, 55);
+    font-weight: 600;
+}
+.payment{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.credit-warper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.img_delete-warper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.credit-img{
+    width: 60px;
+    height: 50px;
+    margin:5px;
+}
+
+
+.total-price{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    border-top: 1px solid rgb(177, 177, 177);
+    padding-bottom:8px;
+    padding-top: 8px;
+    background-color: rgb(240, 252, 255);
+    
+}
+.total{
+    color: rgb(15, 112, 11);
+}
+
+.deleteIcon{
+color: rgb(167, 4, 4);
+}
+.padding-icon{
+    position: relative;
+    bottom: 20px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .linkNav-warper{
+      border-bottom: 1px solid rgb(199, 196, 196);
+      padding-bottom: 10px;
+    }
+    .link{
+        color: rgb(98, 97, 97) !important;
+    }
+  }
+  

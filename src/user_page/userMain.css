@@ -1,0 +1,39 @@
+.shop{
+    height:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(58, 59, 61, 0.52), rgba(97, 95, 97, 0.73)), 
+url('https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-size: cover;
+
+}
+
+.elements-warper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.search_warper{
+    margin-top: 150px;
+  
+}
+.header-sticky{
+position: fixed;
+top: 0;
+z-index: 1000;
+width: 100%;
+}
+.currency{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.delivery{
+    width: 180px;
+    height: 30vh;
+}
+.delivery_description{
+    color: rgb(255, 254, 254);
+}
+
+  
